@@ -17,7 +17,7 @@ namespace Karesz
 		string betöltendő_pálya = "palya14.txt";
 		void TANÁR_ROBOTJAI()
 		{
-			Robot karesz = new Robot("Karesz", 0, 0, 0, 0, 0, 20, 15, 1, false, false);
+			Robot karesz = new Robot("Karesz", 0, 0, 0, 0, 0, 5, 28, 0, false, false);
 			Betölt(betöltendő_pálya);
 			Frissít();
 
